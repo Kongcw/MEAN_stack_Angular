@@ -1,0 +1,24 @@
+{
+  "name": "simple-mean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kongcw/MEAN_stack_Angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kongcw/MEAN_stack_Angular/issues"
+  },
+  "homepage": "https://github.com/Kongcw/MEAN_stack_Angular#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12"
+  }
+}
