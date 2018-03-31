@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Kongcw/MEAN_stack_Angular#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "mongoose": "^5.0.12"
+    "mongoose": "^5.0.12",
+    "nodemon": "^1.17.2"
   }
 }
