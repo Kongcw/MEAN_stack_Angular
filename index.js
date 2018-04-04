@@ -2,12 +2,12 @@
 const express = require('express')
 const app = new express();
 const mongoose = require('mongoose');
-const config = require('./config');
+const config = require('./config/database');
 const path =require('path');    
 
 
 mongoose.Promise = global.Promise;
-mongoose.connect(config.url, (err) => {
+mongoose.connect(config.uri, (err) => {
     if(err){
         console.log('Could NOT connect to database ', err);
 
